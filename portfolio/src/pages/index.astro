@@ -29,11 +29,13 @@ const projects = (await getCollection('work'))
 	<div class="stack gap-20 lg:gap-48">
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
+		
 				<Hero
-					title="Hello, my name is Emilie Dagenais"
-					tagline="A Full-Stack Developer based in Montreal."
+					title=" Hi, my name is Emilie Dagenais. "
+					tagline="A Full Stack Developer based in Montreal, QC."
 					align="start"
-				>
+				>	
+				<p class="intro">Turning ideas into real life <span class="products">products</span>.</p>
 					<div class="roles">
 						<Pill><Icon icon="code" size="1.33em" /> Front-End</Pill>
 						<Pill><Icon icon="code" size="1.33em" /> Back-End</Pill>
@@ -56,7 +58,7 @@ const projects = (await getCollection('work'))
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Selected Projects</h3>
-					<p>Take a look below at some of my featured work.</p>
+					<p>Take a look below at some of my latest work.</p>
 				</header>
 
 				<div class="gallery">
@@ -90,7 +92,7 @@ const projects = (await getCollection('work'))
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							['JavaScript', 'React.js', 'Node.js', 'Express', 'MongoDB', 'HTML', 'CSS', 'TypeScript'].map((brand) => (
+							['JavaScript', 'React.js', 'Node.js', 'Express', 'MongoDB', 'HTML', 'CSS', 'TypeScript', 'Figma', 'Jest'].map((brand) => (
 								<li class="mention-card">
 									<p>{brand}</p>
 								</li>
@@ -112,7 +114,13 @@ const projects = (await getCollection('work'))
 		align-items: center;
 		gap: 2rem;
 	}
-
+.intro{
+	margin-top: -10px;
+	font-weight: bold;
+}
+.products{
+	color: violet;
+}
 	.roles {
 		display: none;
 	}

@@ -30,29 +30,33 @@ import Hero from '../components/Hero.astro';
 			</section>
 			<section>
 				<h2 class="section-title">Education</h2>
-				<div class="content">
-					<p>Concordia University 2022</p>
+				<div class="education">
+					<div>
+					<p><span class="school">Concordia University</span> 2022</p>
 <p>Full Stack Web Development</p>
-<p>Udemy 2023</p>
-<p>UI/UX Design</p>
-<p>Concordia University 2012-2015</p>
+</div>
+<div>
+<p><span class="school">Udemy</span> 2023</p>
+<p>UI/UX Design</p></div>
+<div>
+<p><span class="school">Concordia University</span> 2012-2015</p>
 <p>BA Honors Public History</p>
-
+</div>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
-					<p>- JavaScript</p>
-					<p>- React</p>
-					<p>- Node.js</p>
-					<p>- Express</p>
-					<p>- UI/UX</p>
-					<p>- Various Librairies</p>
-					<p>- Employee Training</p>
-					<p>- Technical Support</p>
-					<p>- Account Management</p>
-					<p>- Team Leadership</p>
+					<p> JavaScript</p>
+					<p> React</p>
+					<p> Node.js</p>
+					<p> Express</p>
+					<p> UI/UX</p>
+					<p> Various Librairies</p>
+					<p> Employee Training</p>
+					<p> Technical Support</p>
+					<p> Account Management</p>
+					<p> Team Leadership</p>
 
 				</div>
 			</section>
@@ -95,6 +99,16 @@ import Hero from '../components/Hero.astro';
 		color: var(--gray-0);
 	}
 
+	.education{
+display: flex;
+flex-direction: column;
+gap: .5em;
+	}
+
+	.school{
+		font-weight: bold;
+		color: violet;
+	}
 	.content {
 		grid-column: 2 / 4;
 	}
