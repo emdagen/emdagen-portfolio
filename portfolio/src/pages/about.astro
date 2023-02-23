@@ -12,19 +12,21 @@ import Hero from '../components/Hero.astro';
 				title="About"
 				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
 			>
+			<div class="meme">
 				<img
-					width="1553"
-					height="873"
-					src="/assets/about1.jpg"
-					alt="Anchorman meme"
-				/>
-			</Hero>
-
+				width="400"
+				height="700"
+				src="/assets/about1.jpg"
+				alt="Anchorman meme"
+			/>
+		</div>
+		</Hero>
+	
 			<section>
 				<h2 class="section-title">Background</h2>
 				<div class="content">
 					<p>
-						A Full-Stack web development graduate with over 10 years of experience in the hospitality industry. I've always pushed myself to excel at my work and have led many high-profile events and trained numerous employees. I enjoy working in a team environment and taking initiative when needed.  I'm always looking to learn more and improve my current skills. 		
+						A Full Stack web development graduate with over 10 years of experience in the hospitality industry. I've always pushed myself to excel at my work and have led many high-profile events and trained numerous employees. I enjoy working in a team environment and taking initiative when needed.  I'm always looking to learn more and improve my current skills. 		
 					</p>
 				</div>
 			</section>
@@ -80,6 +82,12 @@ import Hero from '../components/Hero.astro';
 		gap: 3.5rem;
 	}
 
+.meme{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
 	img {
 		margin-top: 1.5rem;
 		border-radius: 1.5rem;
