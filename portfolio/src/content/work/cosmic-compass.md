@@ -42,13 +42,22 @@ tags:
 
 ---
 
-![ Cosmic Compass app Homepage](/assets/cc-home.png)
+<!-- ![ Cosmic Compass app Homepage](/assets/cc-home.png)
 
 ![ Cosmic Compass app Search](/assets/cc-search.png)
 
 ![ Cosmic Compass app Spread](/assets/cc-spread.png)
 
-![ Cosmic Compass app Zodiac](/assets/cc-zodiac.png)
+![ Cosmic Compass app Zodiac](/assets/cc-zodiac.png) -->
+<p align='center'>
+<img src="https://res.cloudinary.com/curatedtrips/image/upload/v1677274288/signup-dark.png" alt="Screenshot description" width="350" >
+<img src="https://res.cloudinary.com/curatedtrips/image/upload/v1677274300/validation-light.png" alt="Screenshot description" width="350">
+<img src="https://res.cloudinary.com/curatedtrips/image/upload/v1677274320/search-dark.png" alt="Screenshot description" width="350" >
+
+<img src="https://res.cloudinary.com/curatedtrips/image/upload/v1677274328/compatibility-light.png" alt="Screenshot description" width="350" >
+<img src="https://res.cloudinary.com/curatedtrips/image/upload/v1677274335/3card-dark.png" alt="Screenshot description" width="350" >
+<img src="https://res.cloudinary.com/curatedtrips/image/upload/v1677274339/5card-light.png" alt="Screenshot description" width="350" >
+</p>
 
 <p align="center">
 <img src="/assets/cc-iphone2_iphone13promaxgold_portrait.png" alt="mobile version of compatibility" width="300" height="400">
