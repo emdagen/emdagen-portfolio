@@ -1,7 +1,7 @@
 # Portfolio
 
 ```
-npm create astro@latest -- --template portfolio
+npm create astro@latest
 ```
 
 ## 🧞 Commands
