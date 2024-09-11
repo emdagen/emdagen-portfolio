@@ -45,6 +45,8 @@ Upon completion of the trip, users can save their itinerary for future reference
 
 ---
 
+![ Curated Trips app archived page](/assets/ct-main.png)
+
 ![ Curated Trips app archived page](/assets/ct-archived.png)
 
 ![ Curated Trips app drag and drop](/assets/ct-create.png)
