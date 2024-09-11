@@ -2,7 +2,7 @@
 title: Curated Trips
 publishDate: 2022-12-05 00:00:00
 # img: /assets/ct-main.png
-img: /assets/CuratedTripsPreview.jpg
+img: /assets/CuratedTripsPreview.png
 img_alt: Curated Trips app main page.
 description: |
   A travel itinerary building app designed to plan, customize, and save your travels with ease - all in one place!
