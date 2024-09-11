@@ -1,7 +1,8 @@
 ---
 title: LevelUp
 publishDate: 2022-12-05 00:00:00
-img: /assets/LU-home-front.png
+# img: /assets/LU-home-front.png
+img: /assets/TriviaPreview.png
 img_alt: Playing as a couple main page.
 description: |
   An engaging trivia app crafted for couples, friends, and families, aimed at fostering deeper connections and expanding knowledge together.
@@ -41,6 +42,10 @@ This app features three distinct categories tailored for different relationships
 ### Screenshots
 
 ---
+
+<div align="center">
+<img  src="/assets/LU-home-front.png" alt="Laptop homepage" width="400" height="auto">
+</div>
 
 <div align="center">
 <img  src="/assets/LU-catergories.png" alt="Ipad homepage" width="200" height="auto">
