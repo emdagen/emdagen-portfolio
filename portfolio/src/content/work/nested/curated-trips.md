@@ -1,7 +1,7 @@
 ---
 title: Curated Trips
 publishDate: 2022-12-05 00:00:00
-# img: /assets/ct-main.png
+# img: /assets/ct-main.pngg
 img: /assets/CuratedTripsPreview1.png
 img_alt: Curated Trips app main page.
 description: |
